@@ -11,6 +11,10 @@
     "test": "gulp test",
     "prepublish": "gulp build"
   },
+  "publishConfig": {
+	"registry": "http://kwbuild1.kwsoft.local:4873/",
+	"tag": "kw"
+  },
   "keywords": [
     "input",
     "mask",
